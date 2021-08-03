@@ -8,7 +8,7 @@ import (
 
 // moveable is used to identify entities that can be affected by the MovementSystem
 type moveable interface {
-	Entity
+	primitive.Entity
 	GetPosition() *component.PositionComponent
 	GetVelocity() *component.VelocityComponent
 }

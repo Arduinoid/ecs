@@ -13,7 +13,7 @@ type TextRenderSystem struct {
 
 // textRenderable identifies entities that can render text
 type textRenderable interface {
-	Entity
+	primitive.Entity
 	GetText() *component.TextComponent
 	GetPosition() *component.PositionComponent
 }

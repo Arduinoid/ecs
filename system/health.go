@@ -12,6 +12,7 @@ type HealthSystem struct {
 
 // healthable used to check if an entity as the health component
 type healthable interface {
+	primitive.Entity
 	GetHealth() *component.HealthComponent
 }
 

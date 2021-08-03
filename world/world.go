@@ -5,11 +5,6 @@ import (
 	"time"
 )
 
-// Entity interface for entities to implement
-type Entity interface {
-	GetId() int
-}
-
 // System is used to identify various systems that can be added to a world
 type System interface {
 	Update()
