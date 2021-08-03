@@ -11,6 +11,15 @@ This ECS is heavily inspired by [Engo's ECS](https://github.com/EngoEngine/ecs)
 which is used in it's own game library
 [Engo](https://github.com/EngoEngine/engo)
 
+## Run
+
+`go run cmd/loop`
+
+Now watch as the world loops over the systems and entities. Basic logging is
+used to show entity changes. Try experimenting with adding and removing
+components from entities. Try creating new entities. Maybe even create new
+components and systems, have fun!
+
 ## Design
 
 My design goal for this is to have entities be automatically registered to any
